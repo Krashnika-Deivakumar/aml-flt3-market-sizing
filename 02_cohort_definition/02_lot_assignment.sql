@@ -1,4 +1,3 @@
-
 -- Line of Therapy (LoT) Assignment for AML Patients
 
 -- Step 1: Identify First AML Drug Post Diagnosis (Start of LoT1)
