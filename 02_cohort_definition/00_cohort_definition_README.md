@@ -39,6 +39,24 @@ This module outlines the complete logic used to define the **inclusion cohort** 
 
 ---
 
+
+### Exclusion Criteria Applied
+
+1. **non-AML malignancy**
+   - ICD-10-CM codes C00–C80, excluding C92.* within 12 months prior to AML diagnosis, to minimize confounding due to other primary cancers
+
+2. **Exposure to non-AML antineoplastic agents**
+   - e.g., platinum compounds, taxanes) in the 12-month pre-index period, indicating treatment for another primary cancer
+     
+3. **clinical trials exposure**
+   - identified by claims flagged with “research” or trial-specific codes
+     
+4. **Missing patient_token in any of the core datasets**
+   - claims, lab, or EMR, preventing consistent linkage across sources
+        
+---
+
+
 ### Dependent Files
 
 | File | Purpose |
