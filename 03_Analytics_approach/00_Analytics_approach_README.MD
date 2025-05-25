@@ -9,7 +9,7 @@ This module includes scripts and outputs for:
 
 ---
 
-## 🔍 Exploratory Analysis (Section 8.1 & 8.2)
+## Exploratory Analysis (Section 8.1 & 8.2)
 
 ### Descriptive Statistics
 Key metrics computed by FLT3 status (positive vs negative):
@@ -33,7 +33,7 @@ Files:
 
 ---
 
-## 🧪 Outcome Analysis (Section 8.3 & 8.4)
+## Outcome Analysis (Section 8.3 & 8.4)
 
 ### Survival Data Construction
 - Death date derived from:
@@ -72,13 +72,13 @@ Files:
 
 ---
 
-## 📂 Outputs
+## Outputs
 - CSVs: Summary tables
 - PNGs: KM curves, Sankey diagrams, forest plots
 - Ready-to-embed visuals for slides/reports
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - **SQL**: For data extraction and preprocessing
 - **R**: `survival`, `survminer`, `ggplot2`, `ggalluvial` for analytics and plotting
