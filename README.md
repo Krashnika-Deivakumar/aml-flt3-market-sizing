@@ -60,7 +60,6 @@ All sources are tokenized and linked using `patient_token`.
 
 - **SQL**: Preprocessing, patient selection
 - **R**: `survival`, `survminer`, `ggplot2`, `ggalluvial` for analytics
-- *(Optional)* Python or Plotly for advanced interactivity
 
 ---
 
@@ -77,6 +76,13 @@ All sources are tokenized and linked using `patient_token`.
 2. Export final cohort to CSV
 3. Load CSV into R and run `survival_analysis.R` or `exploratory_visuals.R`
 4. Review outputs in the `outputs/` folder or embed in the report
+
+---
+
+## Data Disclaimer
+
+This is a simulated analytics project designed for mock evaluation and interview preparation.  
+No real patient-level data was used. All code, structure, and logic were developed based on publicly described methods and hypothetical assumptions in alignment with standard RWD practices.
 
 ---
 
