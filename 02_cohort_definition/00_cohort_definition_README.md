@@ -43,10 +43,10 @@ This module outlines the complete logic used to define the **inclusion cohort** 
 
 | File | Purpose |
 |------|---------|
-| `01_data_ingestion.sql` | Link and standardize datasets |
-| `aml_diagnosis_definition.sql` | Establish earliest AML diagnosis |
-| `04_lot_assignment.sql` | Assign LoT and determine index |
-| `aml_flt3_final_inclusion.sql` | Apply all 7 inclusion criteria |
+| `01_aml_diagnosis_definition.sql` | Establish earliest AML diagnosis |
+| `02_lot_assignment.sql` | Assign LoT and determine index |
+| `03_aml_flt3_inclusion.sql` | Apply all 7 inclusion criteria |
+| `04_aml_flt3_exclusion.sql` | Apply all 4 exclusion criteria |
 
 ---
 
